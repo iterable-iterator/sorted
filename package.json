@@ -63,13 +63,13 @@
     "@iterable-iterator/list": "^0.0.2"
   },
   "devDependencies": {
-    "@aureooms/js-itertools": "^5.1.1",
+    "@aureooms/js-itertools": "5.1.1",
     "@babel/core": "7.13.16",
     "@babel/preset-env": "7.13.15",
     "@babel/register": "7.13.16",
     "@commitlint/cli": "12.1.1",
     "@js-library/commitlint-config": "0.0.4",
-    "@total-order/primitive": "^0.0.2",
+    "@total-order/primitive": "0.0.2",
     "ava": "3.15.0",
     "babel-plugin-transform-remove-console": "6.9.4",
     "babel-plugin-unassert": "3.0.1",

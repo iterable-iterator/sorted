@@ -5,10 +5,13 @@ Iterable sorting for JavaScript.
 See [docs](https://iterable-iterator.github.io/sorted/index.html).
 
 ```js
+import {increasing} from '@total-order/primitive';
+import {sorted} from '@iterable-iterator/sorted';
+sorted(increasing, [3, 1, 2]); // 1 2 3
+
 import {decreasing} from '@total-order/primitive';
 import {range} from '@iterable-iterator/range';
-import {sorted} from '@iterable-iterator/sorted';
-sorted(decreasing, range(13)); 12 11 10 9 8 ...
+sorted(decreasing, range(13)); // 12 11 10 9 8 ...
 ```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/sorted.svg)](https://raw.githubusercontent.com/iterable-iterator/sorted/main/LICENSE)

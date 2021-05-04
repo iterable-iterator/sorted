@@ -1269,7 +1269,7 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/map/-/map-0.0.1.tgz#13dd222dd384d934741d96197c0d963c5678760d"
   integrity sha512-uB9ndHoHIditj/0+WiyZou2NqEi7yHESkL0pSC6LfVRPQcwfRUrtzd9+P002Zu8/bdm7xSYZCgTl6SIpjJxORw==
 
-"@iterable-iterator/tee@^0.0.1":
+"@iterable-iterator/tee@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/tee/-/tee-0.0.1.tgz#f82c7e4e9721f9309c0553ef278599088893e0ea"
   integrity sha512-ijfh2PsiKxwpzJzzm/rrH2c1U60mqalCGr5aoFPSyPedSw8qEDScXuicFBCU9OSxN4VsKIdNCEl5xIBufD/Zqw==

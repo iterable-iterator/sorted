@@ -1,8 +1,9 @@
 import test from 'ava';
 
-import {sorted} from '../../src/index.js';
 import * as primitive from '@total-order/primitive';
-import {tee} from '@aureooms/js-itertools';
+import {tee} from '@iterable-iterator/tee';
+
+import {sorted} from '../../src/index.js';
 
 const increasing = (a, b) => primitive.increasing(a, b);
 const decreasing = (a, b) => primitive.decreasing(a, b);

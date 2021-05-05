@@ -36,10 +36,13 @@
 
 <div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-signal-strength---a-href--https---iterable-iterator-github-io-sorted---iterable-iterator-sorted--a-">:signal_strength: <a href="https://iterable-iterator.github.io/sorted">@iterable-iterator/sorted</a></h1><p>Iterable sorting for JavaScript.
 See <a href="https://iterable-iterator.github.io/sorted/index.html">docs</a>.</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">import {decreasing} from &apos;@total-order/primitive&apos;;
-import {range} from &apos;@iterable-iterator/range&apos;;
+<pre><code class="lang-js"><code class="source-code prettyprint">import {increasing} from &apos;@total-order/primitive&apos;;
 import {sorted} from &apos;@iterable-iterator/sorted&apos;;
-sorted(decreasing, range(13)); 12 11 10 9 8 ...</code>
+sorted(increasing, [3, 1, 2]); // 1 2 3
+
+import {decreasing} from &apos;@total-order/primitive&apos;;
+import {range} from &apos;@iterable-iterator/range&apos;;
+sorted(decreasing, range(13)); // 12 11 10 9 8 ...</code>
 </code></pre>
 <p><a href="https://raw.githubusercontent.com/iterable-iterator/sorted/main/LICENSE"><img src="https://img.shields.io/github/license/iterable-iterator/sorted.svg" alt="License"></a>
 <a href="https://www.npmjs.org/package/@iterable-iterator/sorted"><img src="https://img.shields.io/npm/v/@iterable-iterator/sorted.svg" alt="Version"></a>

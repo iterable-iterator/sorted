@@ -16,7 +16,7 @@ sorted(decreasing, range(13)); // 12 11 10 9 8 ...
 
 [![License](https://img.shields.io/github/license/iterable-iterator/sorted.svg)](https://raw.githubusercontent.com/iterable-iterator/sorted/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/sorted.svg)](https://www.npmjs.org/package/@iterable-iterator/sorted)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/sorted/ci:cover?event=push&label=tests)](https://github.com/iterable-iterator/sorted/actions/workflows/ci:cover.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/sorted/ci?event=push&label=tests)](https://github.com/iterable-iterator/sorted/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/sorted.svg)](https://github.com/iterable-iterator/sorted/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/sorted.svg)](https://github.com/iterable-iterator/sorted/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/sorted.svg)](https://www.npmjs.org/package/@iterable-iterator/sorted)

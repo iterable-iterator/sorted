@@ -3,7 +3,7 @@ import test from 'ava';
 import * as primitive from '@total-order/primitive';
 import {tee} from '@iterable-iterator/tee';
 
-import {sorted} from '../../src/index.js';
+import {sorted} from '#module';
 
 const increasing = (a, b) => primitive.increasing(a, b);
 const decreasing = (a, b) => primitive.decreasing(a, b);

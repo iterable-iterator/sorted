@@ -1,7 +1,7 @@
 import test from 'ava';
 
-import * as primitive from '@total-order/primitive';
 import {tee} from '@iterable-iterator/tee';
+import * as primitive from '@total-order/primitive';
 
 import {sorted} from '#module';
 
